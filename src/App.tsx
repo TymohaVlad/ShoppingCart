@@ -1,12 +1,13 @@
 
-import ApiClient from './components/ApiClient';
-
+import GetProduct from './components/GetProduct/GetProduct';
 
 import './App.css';
 
 function App(): JSX.Element {
   return(
-    <></>
+    <main className='main'>
+      <GetProduct/>
+    </main>
   )
  
 }

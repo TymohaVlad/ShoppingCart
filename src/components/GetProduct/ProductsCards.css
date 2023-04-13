@@ -1,0 +1,29 @@
+.cards__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 90%;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+}
+.product__card{
+    max-width: 300px;
+}
+.product__card img {
+    max-width: 250px;
+    height: 290px;
+}
+.product__price{
+    font-size: 20px;
+    color: blue;
+    font-weight: 600;
+}
+.add__btn{
+    width: 150px;
+    height: 30px;
+    background:  green;
+    color: #fff;
+    font-size: 16px;
+    border:none
+}
