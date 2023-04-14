@@ -8,6 +8,7 @@ import './ProductsCards.css'
 function GetProduct(): JSX.Element {
   const [products, setProducts] = useState<Product[]>([]);
   const [error, setError] = useState<string>('');
+
   const apiClient = new ApiClient();
 
   useEffect(() => {
@@ -26,7 +27,7 @@ function GetProduct(): JSX.Element {
     <section className="product__carsd">
       <div className="cards__container">
         {products.map((product: Product) => (
-          <ProductsCards key={product.id} {...product} />
+          <ProductsCards key={product.id} {...product}  />
         ))}
       </div>
     </section>
