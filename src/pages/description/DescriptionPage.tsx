@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import ApiClient from '../../components/ApiClient';
 
-import "./Description.css"
+import './Description.css';
 
 type Product = {
   id: number;

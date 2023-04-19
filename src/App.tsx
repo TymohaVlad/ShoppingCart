@@ -13,7 +13,10 @@ function App() {
           <Route path="/" element={<MainLayout />}>
             <Route index element={<Home />} />
             <Route path="/cart-list" element={<CartList />} />
-            <Route path="/description/:productId" element={<DescriptionPage />} />
+            <Route
+              path="/description/:productId"
+              element={<DescriptionPage />}
+            />
           </Route>
         </Routes>
       </BrowserRouter>
